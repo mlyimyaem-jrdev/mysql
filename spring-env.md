@@ -454,6 +454,8 @@ public class User {
 ```
 
 Two notes on this one:
+@NotBlank(message = "Email is required")
+@Email(message = "Please provide a valid email address")
 
 **`password` is a BCrypt hash, 60 characters.** Never store what the user typed. The column is 100 to leave room if you switch algorithms.
 
