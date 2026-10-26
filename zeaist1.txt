@@ -1,0 +1,4 @@
+%LOCALAPPDATA% / zeal
+
+npm install
+npm run dev
