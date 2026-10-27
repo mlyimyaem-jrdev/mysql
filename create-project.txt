@@ -1,0 +1,6 @@
+npm create vite@7 practice2 -- --template vue
+npm install
+
+
+npm install bootstrap@5 bootstrap-icons vue-router@4 axios
+import 'bootstrap/dist/css/bootstrap.min.css'
